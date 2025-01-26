@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section class="form">
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="ftname">Firstname:</label>
+        <input id="ftname" type="text"><br><br>
+  
+        <label for="mnane">Middlename:</label>
+        <input itemid="mnane" type="text"><br><br>
+  
+        <label for="lname">Lastname:</label>
+        <input id="lname" type="text"><br><br>
+  
+        <label for="course">Course</label>
+        <!-- we can also select multiple option usning multiple attribute -->
+        <select name="qual" id="qual">
+          <option  disabled selected>Course</option>
+          <option value="btect">B.Tech</option>
+          <option value="BCA">BCA</option>
+          <option value="BBA">BBA</option>
+          <option value="MBA">MBA</option>
+          <option value="McA">McA</option>
+          <option value="M.Tech">M.Tech</option>
+        </select><br><br>
+  
+        <label for="gender">Gender:</label><br>
+        <input id="gender" type="radio">Male <br>
+        <input id="gender" type="radio">Female <br>
+        <input id="gender" type="radio">Other <br><br>
+  
+        <label for="dob">DOB</label>
+        <input id="dob" type="date"><br><br>
+  
+        <label for="phone">Phone:</label>
+        <button>+91</button>
+        <input id="phone" type="text"><br><br>
+  
+        <label for="address">Address</label><br>
+        <textarea id="address" rows="6" cols="90"></textarea><br><br>
+  
+        <label for="mail">Email:</label>
+        <input id="mail" type="email"><br><br>
+  
+        <label for="psd">Password:</label>
+        <input id="psd" type="password"><br><br>
+  
+        <label for="rpsd">Re-type password:</label>
+        <input id="rpsd" type="password"><br><br>
+  
+        <label ><input type="checkbox"> Agree to terms and conditions</label><br><br>
+  
+        <label for="">Choose File</label>
+        <input type="file" placeholder="Choose a file"><br><br>
+  
+        <label for="color">Choose Color</label>
+        <input id="color" type="color"><br><br>
+  
+        <input type="reset"> <input type="submit">
+      </fieldset>
+    </form>    
+  </section>
+</body>
+</html>
